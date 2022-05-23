@@ -3,7 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import VueToast from 'vue-toast-notification'
-import 'vue-toast-notification/dist/theme-sugar.css';
+import 'vue-toast-notification/dist/theme-sugar.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 createApp(App)
 .use(VueToast, { 
@@ -14,3 +15,5 @@ createApp(App)
 .use(store)
 .use(router)
 .mount('#app')
+
+import 'bootstrap/dist/js/bootstrap.min.js'
